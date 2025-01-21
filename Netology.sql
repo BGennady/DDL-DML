@@ -12,7 +12,7 @@ SELECT name, surname
 FROM netology.PERSONS
 WHERE city_of_living = 'MOSCOW';
 
-SELECT age
+SELECT *
 FROM netology.PERSONS
 WHERE age > 27
 ORDER BY age DESC;
